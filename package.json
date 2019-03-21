@@ -1,11 +1,25 @@
 {
-  "name": "rstapi",
+  "name": "RSTAPI",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prescottbreeden/RSTAPI.git"
+  },
+  "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prescottbreeden/RSTAPI/issues"
+  },
+  "homepage": "https://github.com/prescottbreeden/RSTAPI#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.19"
+  }
 }
